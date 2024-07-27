@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | News homepage</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body >
+
+    <div class="overlay hidden"></div>
+    <nav>
+      <div id="logo"></div>
+      <button id="burger_btn">
+        <svg
+          id="burger"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="size-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+          />
+        </svg>
+      </button>
+      <button id="cross_btn" class="hidden">
+        <svg
+          id="cross"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="size-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M6 18 18 6M6 6l12 12"
+          />
+        </svg>
+      </button>
+
+      <div class="nav-links" id="nav_links">
+        <li>Home</li>
+        <li>New</li>
+        <li>Popular</li>
+        <li>Trending</li>
+        <li>Categories</li>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="img_main"></div>
+      <h1>The Bright Future of Web 3.0?</h1>
+      <div id="p_btn">
+        <p class="main">
+          We dive into the next evolution of the web that claims to put the
+          power of the platforms back into the hands of the people. But is it
+          really fulfilling its promise?
+        </p>
+        <button id="readmore">READ MORE</button>
+      </div>
+      <div id="new_stuff">
+        <div id="new">New</div>
+        <div class="parts_of_new">
+          <div class="t">Hydrogen VS Electric Cars</div>
+          Will hydrogen-fueled cars ever catch up to EVs?
+        </div>
+        <div class="parts_of_new">
+          <div class="t">The Downsides of AI Artistry</div>
+          What are the possible adverse effects of on-demand AI image
+          generation?
+        </div>
+        <div class="parts_of_new">
+          <div class="t">Is VC Funding Drying Up?</div>
+          Private funding by VC firms is down 50% YOY. We take a look at what
+          that means.
+        </div>
+      </div>
+      <div id="set_2">
+        <div class="parts_of_2" id="retropc">
+          <div id="img_pc">
+            <img src="assets/images/image-retro-pcs.jpg" alt="" />
+          </div>
+          <div class="text">
+            <div class="heading">01</div>
+            <div class="title">Reviving Retro PCs</div>
+            What happens when old PCs are given modern upgrades?
+          </div>
+        </div>
+        <div class="parts_of_2" id="laptop">
+          <div id="img_keyboard">
+            <img src="assets/images/image-top-laptops.jpg" alt="" />
+          </div>
+          <div class="text">
+            <div class="heading">02</div>
+            <div class="title">Top 10 Laptops of 2022</div>
+            Our best picks for various needs and budgets.
+          </div>
+        </div>
+        <div class="parts_of_2" id="controller">
+          <div id="img_controller">
+            <img src="assets/images/image-gaming-growth.jpg" alt="" />
+          </div>
+          <div class="text">
+            <div class="heading">03</div>
+            <div class="title">The Growth of Gaming</div>
+            How the pandemic has sparked fresh opportunities.
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- </div> -->
+    <script src="index.js"></script>
+  </body>
+</html>
